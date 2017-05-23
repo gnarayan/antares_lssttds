@@ -4,6 +4,14 @@ Jupyter notebooks implementing a mini version of ANTARES for the "Building the I
 
 # First things first
 
+Install astroconda if you haven't already:
+
+Follow instructions [here:](https://astroconda.readthedocs.io/en/latest/)
+
+`source activate astroconda`
+
+---
+
 This subdirectory of the repo contains files you'll need for these sessions:  
 
 
@@ -54,7 +62,6 @@ Untar them.
 3. Then we need an extra package to support parallel computation with ipython:
 
 `conda install -y ipyparallel`
-`pip install george`
 
 ---
 
